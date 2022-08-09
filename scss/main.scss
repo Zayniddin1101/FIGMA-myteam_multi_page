@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Livvic";
+    list-style: none    ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,700;1,600&display=swap');
+
+@import "_generals.scss";
+@import "./blocks/block"

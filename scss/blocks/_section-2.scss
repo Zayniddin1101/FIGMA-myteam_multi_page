@@ -1,0 +1,98 @@
+.section-second {
+    background-color: #004047;
+    .section-second-container {
+        padding: 140px 0;
+        background-color: #004047;
+        position: relative;
+        .haeding-two {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 48px;
+            color: #fff;
+            span {
+                color: #79C8C7;
+            }
+        }
+        .team-opinion {
+
+            .roww {
+                display: flex;
+                gap: 5%;
+
+                .col {
+                    text-align: center;
+
+                    p {
+                        font-size: 15px;
+                        color: #fff;
+                    }
+                    h5 {
+                        font-size: 18px;
+                        color: #79C8C7;
+                    }
+                    .par {
+                        font-size: 13px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .absolute-3 {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .absolute-4 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section-second {
+        background-color: #004047;
+        .section-second-container {
+            padding: 140px 0;
+            background-color: #004047;
+            position: relative;
+            .haeding-two {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 32px;
+                color: #fff;
+                span {
+                    color: #79C8C7;
+                }
+            }
+            .team-opinion {
+    
+                .roww {
+                        display: block;
+    
+                    .col {
+                            text-align: center;
+    
+                        p {
+
+                        h5{
+
+                        }
+                            .par {
+
+                            }
+                        }
+                    }
+                }
+                .absolute-3 {
+
+                }
+                .absolute-4 {
+
+                }
+            }
+        }
+    }
+}    

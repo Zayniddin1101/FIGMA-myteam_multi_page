@@ -1,0 +1,91 @@
+ .sarcasm {
+    background-color: #F67E7E;
+    .sarcasm-container {
+        height: 200px;
+        display: flex;
+        position: relative;
+        padding-top: 100px;
+        // gap: 40%;
+        justify-content: space-between;
+
+        h2 {
+            margin-left: 20%;
+            font-size: 48px;
+            color: #012F34;
+        }
+        .sarcasm-btn {
+            width: 153px;
+            height: 48px;
+            border: 1px solid #012F34;
+            color: #012F34;
+            text-align: center;
+            border-radius: 24px;
+            padding-top: 10px;
+        }
+        .sarcasm-btn:hover {
+            background-color: #012F34;
+            color: #F67E7E;
+            box-shadow: 0 0 21px #012F34;
+            transition: 0.5s;
+        }
+        .absolut-5 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+}
+@media only screen and (max-width: 992px){
+    .sarcasm {
+
+        .sarcasm-container {
+            height: 300px;
+            h2 {
+
+
+            }
+            .sarcasm-btn {
+
+            }
+            .absolut-5 {
+
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .sarcasm {
+
+        .sarcasm-container {
+
+            h2 {
+                font-size: 32px;
+
+            }
+            .sarcasm-btn {
+
+            }
+            .absolut-5 {
+
+            }
+        }
+    }
+}
+@media only screen and (max-width: 375px){
+    .sarcasm {
+        height: 400px;
+        .sarcasm-container {
+            display: block;
+            h2 {
+                font-size: 32px;
+
+            }
+            .sarcasm-btn {
+                margin: 0 auto;
+            }
+            .absolut-5 {
+                bottom: -100px;
+            }
+        }
+    }
+}
